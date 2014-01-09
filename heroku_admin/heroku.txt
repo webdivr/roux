@@ -7,4 +7,15 @@ Git URL:
 	
 Use the following code to set up your app for local development:
 git clone git@heroku.com:rouxconferenceproject.git -o heroku	
+
+
+
+The following code I lifted from getsatisfaction.com. I did this as I was having difficulty pushing my app to heroku using ray villabos' method.."git push heroku master".
+
+apparently, using this code will make my app visible within heroku
+git remote add heroku git@heroku.com:rouxconferenceproject.git
+
+it works!
+
+
 	
